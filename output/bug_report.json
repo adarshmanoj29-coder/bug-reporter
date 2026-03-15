@@ -1,0 +1,17 @@
+{
+  "title": "Login Button Fails on iOS 17",
+  "severity": "High",
+  "environment": "Mobile App on iOS 17",
+  "steps_to_reproduce": [
+    "Enter valid login credentials",
+    "Click the login button",
+    "Observe the app's response"
+  ],
+  "expected_behavior": "User should be logged in successfully",
+  "actual_behavior": "Login button click has no effect",
+  "suggested_test_cases": [
+    "Test with different valid credentials",
+    "Test on other iOS versions",
+    "Test on different mobile devices"
+  ]
+}
